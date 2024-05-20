@@ -93,6 +93,8 @@ all:
     @$(MAKE) /NOLOGO /$(MAKEFLAGS)
     cd "$(MAKEDIR)\payload"
     @$(MAKE) /NOLOGO /$(MAKEFLAGS)
+    cd "$(MAKEDIR)\static"
+    @$(MAKE) /NOLOGO /$(MAKEFLAGS)
     cd "$(MAKEDIR)"
 
 clean:
