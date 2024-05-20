@@ -460,6 +460,7 @@ nmake</Command>
     <ClCompile Include="..\samples\slept\sleepold.cpp" />
     <ClCompile Include="..\samples\slept\slept.cpp" />
     <ClCompile Include="..\samples\slept\verify.cpp" />
+    <ClCompile Include="..\samples\static\static.cpp" />
     <ClCompile Include="..\samples\syelog\sltest.cpp" />
     <ClCompile Include="..\samples\syelog\sltestp.cpp" />
     <ClCompile Include="..\samples\syelog\syelog.cpp" />
@@ -546,6 +547,7 @@ nmake</Command>
     <None Include="..\samples\simple\Makefile" />
     <None Include="..\samples\simple_safe\Makefile" />
     <None Include="..\samples\slept\Makefile" />
+    <None Include="..\samples\static\Makefile" />
     <None Include="..\samples\syelog\Makefile" />
     <None Include="..\samples\talloc\Makefile" />
     <None Include="..\samples\traceapi\Makefile" />

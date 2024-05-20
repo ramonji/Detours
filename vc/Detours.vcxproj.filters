@@ -103,6 +103,9 @@
     <Filter Include="src">
       <UniqueIdentifier>{E980771B-0BA5-4B01-947A-B99D33E31E89}</UniqueIdentifier>
     </Filter>
+    <Filter Include="samples\static">
+      <UniqueIdentifier>{60ea6598-b7c2-44e7-a474-a348852bb13b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\uimports.cpp">
@@ -348,6 +351,9 @@
     <ClCompile Include="..\samples\disas\x86.cpp">
       <Filter>samples\disas</Filter>
     </ClCompile>
+    <ClCompile Include="..\samples\static\static.cpp">
+      <Filter>samples\static</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\detours.h">
@@ -504,6 +510,9 @@
     <None Include="..\Makefile" />
     <None Include="..\README.md" />
     <None Include="..\system.mak" />
+    <None Include="..\samples\static\Makefile">
+      <Filter>samples\static</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\samples\slept\NORMAL_IA64.TXT">
